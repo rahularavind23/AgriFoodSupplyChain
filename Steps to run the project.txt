@@ -1,0 +1,48 @@
+STEPS  TO RUN THE PROJECT :
+
+1.Click common daemon service runner which is a java based application to handle all http\s request with tomcat web server.
+
+2.Open the blockchain folder.
+
+3.Click 8050.
+
+4.In the cmd,type java -jar "blockchain1".
+
+5.Repeat the above steps for blockchain 8051 and 8052.
+
+6.Open mysql and check whether there is  any data in bankadmindb and foodsupplychain folders.
+
+7.If not,create your own database.
+
+8.Open google,type localhost:8050/chain in the url space.
+
+9.In the another tab,type localhost:8051/chain in the url space.
+
+10.In the another tab,type localhost:8052/chain in the url space.
+
+11.Open another tab and type localhost:8888 in the ur space.
+
+12.Click server status .
+
+13.Type the username and password as "admin".
+
+14.Click foodsupplychain and click on admin login.
+
+15.Enter the username and password.
+
+16.Check what types of products are being added in.
+
+17.In the supplier blockchain,the supplier had submitted the deatils of quantities and types of 
+products available in it clearly.
+
+18.In the manufacturer blockchain, enter the raw materials for the type of products and their uses.
+
+19.In the distributer blockchain,enter the items available for distribution.
+
+20.Consumers will be able to know about the products and they order the necessary quantities they need.
+
+21.With the help of the barcode scanner customers can scan to know more about the products.
+
+22.Online transactions happens through net-banking.
+
+
